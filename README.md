@@ -1,0 +1,8 @@
+# criando seu gerenciador de herois - desenvolvido em bootcamp na digital one innovation
+
+Executar dynamo:
+na pasta em que o jar está baixado: java -Djava.library.path=./DynamoDBLocal_lib -jar DynamoDBLocal.jar -sharedDb
+
+para listar as tabelas criadas: aws dynamodb list-tables --endpoint-url http://localhost:8000
+
+documentacao gerada pela aplicação: swagger: http://localhost:8080/swagger-ui-heroes-reactive-api.html
